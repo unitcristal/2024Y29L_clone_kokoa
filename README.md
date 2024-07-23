@@ -1,3 +1,3 @@
 # clone 2024Y30L kokoa
 
-html, css
+practice html, css
