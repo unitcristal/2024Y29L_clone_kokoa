@@ -1,0 +1,79 @@
+body {
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background {
+  background-color: #6bbcbe;
+  width: 530px;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+@keyframes spining-dots {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 160px;
+  animation: spining-dots 1s ease-in-out infinite;
+}
+.dot {
+  border: 5px solid white;
+  border-radius: 5px;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+@keyframes streching-boxes {
+  0% {
+    transform: scaleY(1);
+  }
+  25% {
+    transform: scaleY(2);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+.squares {
+  display: flex;
+  position: absolute;
+  bottom: 160px;
+}
+.square {
+  background-color: white;
+  width: 10px;
+  height: 40px;
+  margin: 0px 3px;
+  transform-origin: center;
+  animation: streching-boxes 1s ease-in-out infinite;
+}
+.square:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.square:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.square:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.square:nth-child(5) {
+  animation-delay: 0.4s;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <style>
+      button {
+        padding: 5px;
+        border-radius: 10px;
+      }
+      button:hover {
+        background-color: tomato;
+      }
+      a:hover {
+        color: yellow;
+      }
+      a:visited {
+        color: purple;
+      }
+      a:focus {
+        color: white;
+      }
+      form {
+        border: 1px solid salmon;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+      }
+      form:focus-within {
+        border-color: purple;
+      }
+      form:hover input:focus {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button>hello</button>
+      <a href="https://map.google.com">go to map</a>
+    </div>
+    <form>
+      <input type="text" name="" id="" />
+      <input type="text" name="" id="" />
+      <input type="text" name="" id="" />
+    </form>
+  </body>
+</html>

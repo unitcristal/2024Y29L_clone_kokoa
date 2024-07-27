@@ -1,0 +1,18 @@
+.bar {
+  display: flex;
+  align-items: center;
+  width: 52%;
+  margin: 35px;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+.bar__column__icon {
+  justify-content: flex-start;
+  transform: scale(2.2);
+  margin-left: 2px;
+}
+.bar__column__playlist {
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 800;
+}

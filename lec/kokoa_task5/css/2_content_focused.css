@@ -1,0 +1,35 @@
+.content__focused {
+  display: flex;
+}
+.content__focused__photo {
+  width: 130px;
+  height: 130px;
+  background-color: #ffbc11;
+  border: 2px solid black;
+  border-radius: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 25px;
+  margin-right: 20px;
+}
+.scale {
+  transform: scale(2.7);
+}
+.content__focused__description {
+  display: flex;
+  flex-direction: column;
+  width: 53%;
+  margin: 15px 0;
+}
+.content__focused__description__title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+}
+.content__focused__description__name {
+  font-size: 18px;
+  margin: 10px 0;
+  font-weight: 700;
+  opacity: 0.8;
+}

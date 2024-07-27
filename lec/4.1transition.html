@@ -1,0 +1,44 @@
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      a {
+        color: white;
+        background-color: tomato;
+        text-decoration: none;
+        padding: 3px 5px;
+        border-radius: 5px;
+        font-size: 50px;
+        transition: all 0.5s ease-in-out;
+        /* transition: background-color 1s ease-in-out, color 1s ease-in-out,
+          border-radius 1s ease-in-out; */
+      }
+      a:hover {
+        color: tomato;
+        background-color: wheat;
+        border-radius: 15px;
+      }
+      .container {
+        width: 150px;
+        height: 150px;
+        overflow: hidden;
+        /* position: relative; */
+      }
+      .container img {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        /* transform: rotateZ(60deg); */
+        /* position: absolute; */
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#">blahblah</a>
+    <div class="container">
+      <img src="img/photo.jpeg" />
+    </div>
+    <span>hello</span>
+  </body>
+</html>

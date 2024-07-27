@@ -1,0 +1,35 @@
+.form {
+  top: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form__box {
+  width: 320px;
+  height: 50px;
+  border-radius: 28px;
+  position: absolute;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0em 0.1em 0.5em rgb(0 0 0 / 10%);
+}
+.form input {
+  width: 220px;
+  height: 35px;
+  margin-left: 15px;
+  border: none;
+}
+.form input:focus {
+  outline: none;
+}
+.form input::placeholder {
+  font-size: 15px;
+  opacity: 0.5;
+}
+.form__box__icon {
+  opacity: 0.15;
+}

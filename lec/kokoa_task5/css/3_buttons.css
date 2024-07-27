@@ -1,0 +1,47 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  margin: 25px;
+  justify-content: space-between;
+}
+.border {
+  border: 2px solid black;
+}
+.btn__align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons__play {
+  width: 175px;
+  height: 60px;
+  border-radius: 15px;
+  border-bottom-width: 7px;
+}
+.buttons__play__logo {
+  transform: scale(1.4);
+  margin: 0 6px;
+}
+.buttons__play__text {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 0 6px;
+}
+.buttons__heart {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-bottom-width: 7px;
+}
+.buttons__heart__logo {
+  transform: scale(2);
+}
+.buttons__add {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-bottom-width: 7px;
+}
+.buttons__add__logo {
+  transform: scale(2);
+}

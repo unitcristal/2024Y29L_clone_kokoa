@@ -1,0 +1,16 @@
+.bar {
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding-bottom: 20px;
+}
+.bar__column {
+  padding: 0 15px;
+  /* transform: scale(1.4); */
+  /* padding: 100px; */
+}
+.bar__column__text {
+  font-size: 20px;
+}
